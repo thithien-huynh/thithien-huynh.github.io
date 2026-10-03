@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f1f0e8">
+    <meta name="description" content="Thien (Katie) Huynh is a UX design student at Wilfrid Laurier University, Brantford Campus, creating thoughtful digital products and services around real human needs.">
+    <title>Thien (Katie) Huynh — UX Design Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Thien (Katie) Huynh, home">TH<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#work">Selected work</a>
+        <a href="#approach">Approach</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Contact me <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-wrap" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> THIEN (KATIE) HUYNH · UX DESIGN STUDENT · BRANTFORD, ON</p>
+          <h1 id="hero-title">Hello, I’m<br><span>Thien (Katie) Huynh.</span></h1>
+          <p class="hero-intro">You can call me Katie. I make digital experiences feel a little more human. Curious by nature, careful by design.</p>
+          <a class="text-link" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-art" aria-label="A quiet, light-filled modernist workspace">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85" alt="A calm, sunlit studio with long tables and plants" fetchpriority="high">
+          <div class="art-caption"><span>DESIGNING WITH INTENTION</span><span>EST. 2026</span></div>
+          <div class="hero-note"><span class="note-index">01 / 03</span><span>Observe closely.<br>Make it matter.</span><span class="note-mark" aria-hidden="true">✳</span></div>
+        </div>
+        <div class="hero-footnote"><span>INDEPENDENT THINKING, BETTER TOGETHER</span><span>SCROLL TO DISCOVER&nbsp; ↓</span></div>
+      </section>
+
+      <section class="work-section section-wrap" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">A FEW THINGS I’VE BEEN WORKING ON</p>
+            <h2 id="work-title">Selected work<span class="heading-period">.</span></h2>
+          </div>
+          <p class="section-aside">Small details. Bigger picture.<br>Always made for people.</p>
+        </div>
+
+        <div class="work-toolbar">
+          <p class="mono-label" id="work-count" aria-live="polite">03 PROJECTS</p>
+          <div class="filter-group" role="group" aria-label="Filter projects">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All work <span>03</span></button>
+            <button class="filter-button" type="button" data-filter="information" aria-pressed="false">Information design <span>01</span></button>
+            <button class="filter-button" type="button" data-filter="brochure" aria-pressed="false">Brochure design <span>01</span></button>
+            <button class="filter-button" type="button" data-filter="product" aria-pressed="false">App design <span>01</span></button>
+          </div>
+        </div>
+
+        <div class="project-list" id="project-list">
+          <article class="project" data-category="information">
+            <div class="project-visual project-visual-information" aria-hidden="true">
+              <div class="information-board">
+                <div class="information-head"><span>DFO / FISH HABITAT</span><span>NEW STRUCTURE</span></div>
+                <h4>Find what<br>you need.</h4>
+                <div class="information-row"><span>01</span><strong>Learn about fish habitat</strong><span>+</span></div>
+                <div class="information-row"><span>02</span><strong>Projects &amp; permits</strong><span>+</span></div>
+                <div class="information-row is-highlighted"><span>03</span><strong>Report a problem</strong><span>+</span></div>
+                <div class="information-row"><span>04</span><strong>Research &amp; data tools</strong><span>+</span></div>
+                <div class="information-row"><span>05</span><strong>Programs &amp; partnerships</strong><span>+</span></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>01 / INFORMATION DESIGN</span><span>2026 · JAN–APR</span></div>
+              <h3>Find the way<br><em>through.</em></h3>
+              <p class="project-summary">Reorganizing DFO Fish Habitat information so people can learn, take action, and find research without getting lost.</p>
+              <ul class="tag-list" aria-label="Project methods"><li>Content inventory</li><li>Card sorting</li><li>Tree testing</li></ul>
+              <details class="case-details">
+                <summary><span>Read the case study</span><span class="details-icon" aria-hidden="true">+</span></summary>
+                <div class="case-body"><p>As researcher and documentation specialist on a five-person team, I helped audit the DFO site and test its information architecture. A 20-card sort with 13 participants showed how strongly labels shaped where people expected to find information.</p><p class="case-outcome"><strong>What changed</strong> After restructuring the site into five clear areas, invasive-species reporting success rose from 30% to 60%. Lost-gear task time fell from 41.6 to 25.8 seconds, while success rose from 80% to 87.5%.</p><p class="case-links"><a href="https://silent-airport-987948.framer.app/making-fish-habitat-information-easier-to-find-and-understand" target="_blank" rel="noopener noreferrer">Full case study <span aria-hidden="true">↗</span></a></p></div>
+              </details>
+            </div>
+          </article>
+
+          <article class="project" data-category="brochure">
+            <div class="project-visual project-visual-brochure" aria-hidden="true">
+              <div class="brochure-sheet">
+                <p class="brochure-kicker">WILFRID LAURIER · BRANTFORD</p>
+                <h4>The ultimate<br>student’s guide<br><em>to Brantford</em></h4>
+                <div class="brochure-grid"><span>LOCAL PLACES</span><span>TRANSIT MAP</span><span>ONE CARD</span><span>STUDENT DEALS</span></div>
+                <p class="brochure-footer">YOUR CITY, IN REACH</p>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>02 / BROCHURE DESIGN</span><span>2024 · SEP–DEC</span></div>
+              <h3>A guide to<br><em>belonging.</em></h3>
+              <p class="project-summary">A print-ready guide connecting Laurier students with Brantford places, transit, services, and student discounts.</p>
+              <ul class="tag-list" aria-label="Project methods"><li>13 student interviews</li><li>Prototyping</li><li>Usability testing</li></ul>
+              <details class="case-details">
+                <summary><span>Read the case study</span><span class="details-icon" aria-hidden="true">+</span></summary>
+                <div class="case-body"><p>We began with an app concept, then 13 student interviews surfaced barriers around awareness, getting around, safety, and going out alone. With the client, we shifted to a physical guide delivered at Orientation Week, where incoming students could use it throughout the year.</p><p class="case-outcome"><strong>What changed</strong> Three usability rounds with 12 participants shaped a double-fold, print-ready brochure with local listings, a transit map, One Card details, discounts, and a coupon strip.</p><p class="case-links"><a href="https://silent-airport-987948.framer.app/laurier-hub/helping-students-discover-and-engage-with-their-community" target="_blank" rel="noopener noreferrer">Full case study <span aria-hidden="true">↗</span></a></p></div>
+              </details>
+            </div>
+          </article>
+
+          <article class="project" data-category="product">
+            <div class="project-visual project-visual-app" aria-hidden="true">
+              <div class="app-screen">
+                <div class="app-screen-head"><span>LAURIER STUDENTS’ UNION</span><span>● ● ●</span></div>
+                <p class="app-greeting">YOUR CAMPUS, CONNECTED</p>
+                <h4>Find your<br><em>community.</em></h4>
+                <div class="app-feature"><span>01</span><strong>Events &amp; activities</strong><b>↗</b></div>
+                <div class="app-feature"><span>02</span><strong>Services &amp; support</strong><b>↗</b></div>
+                <div class="app-feature"><span>03</span><strong>OneCard &amp; involvement</strong><b>↗</b></div>
+                <p class="app-nav">HOME　 EXPLORE　 PROFILE</p>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>03 / APP DESIGN</span><span>2026 · JAN–APR</span></div>
+              <h3>One union.<br><em>One place.</em></h3>
+              <p class="project-summary">Bringing student union services, events, and community into one experience, guided by how students already seek information.</p>
+              <ul class="tag-list" aria-label="Project methods"><li>Student interviews</li><li>Survey research</li><li>Usability testing</li></ul>
+              <details class="case-details">
+                <summary><span>Read the case study</span><span class="details-icon" aria-hidden="true">+</span></summary>
+                <div class="case-body"><p>Research revealed a fragmented experience across the Students’ Union website, Instagram, and email. While 72% of surveyed students mainly knew the SU through Instagram, only 39% said its services were clear, and 17% had never heard of the website.</p><p class="case-outcome"><strong>Design direction</strong> We explored an app that brings events, services, community, and student identity together. Usability testing highlighted grouped navigation, the events calendar, OneCard access, and involvement points.</p><p class="case-links"><a href="https://silent-airport-987948.framer.app/laurier-hub/student-union" target="_blank" rel="noopener noreferrer">Full case study <span aria-hidden="true">↗</span></a><a href="https://www.figma.com/proto/nLvp4jPAtQU2BYQTJpBdwu/UX200-SU-App?node-id=129-1313&t=Uv3EOXrI4uGH135n-1" target="_blank" rel="noopener noreferrer">View Figma prototype <span aria-hidden="true">↗</span></a></p></div>
+              </details>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="approach-section" id="approach" aria-labelledby="approach-title">
+        <div class="section-wrap approach-inner">
+          <div class="approach-intro">
+            <p class="eyebrow">A WORKING POINT OF VIEW</p>
+            <h2 id="approach-title">Good design<br>is a <em>practice.</em></h2>
+            <p>Not a finish line. A set of choices, made with care, checked with real people, and improved over time.</p>
+          </div>
+          <ol class="principles-list">
+            <li><span class="principle-number">01</span><div><h3>Start with the person</h3><p>Listen before solving. Context is part of the interface.</p></div><span class="principle-mark" aria-hidden="true">↗</span></li>
+            <li><span class="principle-number">02</span><div><h3>Make the next step clear</h3><p>Hierarchy and consistency make room for confidence.</p></div><span class="principle-mark" aria-hidden="true">↗</span></li>
+            <li><span class="principle-number">03</span><div><h3>Leave people in control</h3><p>Accessible, usable experiences offer choice without friction.</p></div><span class="principle-mark" aria-hidden="true">↗</span></li>
+            <li><span class="principle-number">04</span><div><h3>Test the details</h3><p>Small observations can lead to more meaningful change.</p></div><span class="principle-mark" aria-hidden="true">↗</span></li>
+          </ol>
+        </div>
+        <div class="approach-ticker" aria-hidden="true"><span>PEOPLE BEFORE PIXELS</span><i>✳</i><span>CLARITY IS KINDNESS</span><i>✳</i><span>DESIGN IS A TEAM SPORT</span><i>✳</i><span>PEOPLE BEFORE PIXELS</span></div>
+      </section>
+
+      <section class="about-section section-wrap" id="about" aria-labelledby="about-title">
+        <div class="about-marker"><span>THE PERSON<br>BEHIND THE<br>POST-ITS</span><span class="about-asterisk" aria-hidden="true">✳</span></div>
+        <div class="about-copy">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2 id="about-title">Thoughtful by<br>default. <em>Curious</em><br>on purpose.</h2>
+          <p class="about-description">I’m a UX design student at Wilfrid Laurier University, Brantford Campus, learning how better systems can make everyday life feel more considered. I’m drawn to the overlooked moments: the unclear form, the frustrating handoff, the service that assumes everyone arrives the same way.</p>
+          <div class="about-bottom"><span class="availability"><i aria-hidden="true"></i> OPEN TO INTERNSHIPS</span><a class="text-link" href="#work">View selected work <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner section-wrap">
+          <div>
+            <p class="eyebrow">LET’S CONNECT</p>
+            <h2 id="contact-title">Have a good<br><em>question?</em></h2>
+          </div>
+          <div class="contact-copy">
+            <p>I’m open to internships, collaborations, and conversations about thoughtful design. Send me a note.</p>
+            <a class="contact-email" href="mailto:thithien11112006@gmail.com">thithien11112006@gmail.com</a>
+            <a class="contact-action" href="mailto:thithien11112006@gmail.com">Contact me <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="#top" aria-label="Thien (Katie) Huynh, back to top">TH<span>.</span></a>
+      <p>Wilfrid Laurier University · Brantford, Ontario</p>
+      <div class="footer-links"><a href="mailto:thithien11112006@gmail.com">Email <span aria-hidden="true">↗</span></a><span>© <span id="year">2026</span> THIEN (KATIE) HUYNH</span></div>
+    </footer>
+  </body>
+</html>
